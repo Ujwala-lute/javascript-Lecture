@@ -16,26 +16,26 @@ const obj = {    //object literal
     0: 50,
     true:70
 };
-console.log[obj];
-console.log[obj.key1];
-console.log[obj.name];
-console.log[obj['x']];
-console.log[obj.x];
-console.log[obj.val1.a];
-console.log[obj['0']];
-console.log[obj['true']];
+console.log(obj);
+console.log(obj.key1);
+console.log(obj.name);
+console.log(obj['x']);
+console.log(obj.x);
+console.log(obj.val1.a);
+console.log(obj['0']);
+console.log(obj['true']);
 
-console.log[typeof a];
-console.log[typeof obj];
+console.log(typeof a);
+console.log(typeof obj);
 
 //null
 const x = null;
-console.log[x];
+console.log(x);
 
 //undefined
-let y;console.log[y];
+let y;console.log(y);
 y =undefined;
-console.log[y];
+console.log(y);
 
 
 
