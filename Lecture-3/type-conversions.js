@@ -36,7 +36,8 @@ console.log(undefined, Number(undefined));  //new
 //Boolean Conversion
 console.log("------Boolean Conversion--------");
 console.log(1,Boolean(1));
-console.log(0,Boolean(1));
+console.log(0,Boolean(10));
+console.log("Hello",Boolean("Hello")); //false
 
 
 
