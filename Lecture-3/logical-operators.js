@@ -4,10 +4,6 @@ console.log(true || false);  //true
 console.log(false || true);  //true
 console.log(false || false);   //false
 
-console.log(true && true);    //true
-console.log(true && false); // false
-console.log(false && true);  //false
-console.log(false && false);  //false
 
 //OR operator returns first truthy value
 console.log(1 || 0);  //1 , since 1 is truthy value
@@ -42,4 +38,21 @@ console.log(h ?? 10); //0
 console.log('null ?? 10', null ?? 10);
 console.log('undefined ?? 10',undefined ?? 10);
 
+//And operator
+console.log(true && true);    //true
+console.log(true && false); // false
+console.log(false && true);  //false
+console.log(false && false);  //false
+
+//AND operator returns firs faly value
+console.log('1 && 0 -->',1 && 0); //0
+console.log('1 && 3 --->', 1 && 3);  // 3
+console.log('null && 5 --->', null && 5);  // null
+console.log('1 && 3 && null && 6--->', 1 && 3 && null && 6);  //null
+  // (NOT)  !
+  console.log('!true-->',!true);  //false
+  console.log('!false-->',!false); // true
+  console.log('!0-->',!0); //true
+  console.log("!''-->",!''); //true
+  console.log("!null-->",!!null);
 
