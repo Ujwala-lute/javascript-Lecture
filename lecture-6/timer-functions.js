@@ -18,3 +18,4 @@ setTimeout(() => {
 
 for(let i = 0; i < 1e7;i++){}
 console.log('Done!');
+console.timeEnd('timer1');
