@@ -16,7 +16,7 @@ console.log('' || 10);    // 10, since empty string '' is falsy value, so the ou
 
 console.log('null || 10',null || 10);   // 10, null is falsy value
 console.log(null || undefined || 10);   // 10, null & undefined are falsy values
-console.log(nul || undefined || 10); 
+console.log(null || undefined || 10); 
 console.log(null || undefined || 0);   // 0, all are falsy
 console.log(null || 0 || undefined) ; 
 

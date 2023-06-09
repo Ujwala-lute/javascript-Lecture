@@ -4,11 +4,11 @@ while(i <= 10) {
     i++;
 }
 
-const j = 1;
+let j = 1;
 do{
     console.log(j * 2);
     j++;
-}while(j <= 20);
+}while(j <= 10);
 
 for(let k = 1; k <= 10; k++){
     console.log('k', k*2);
@@ -40,10 +40,14 @@ for( ; b<5; ){
 
 //}
 
-let sum = 8;
+let sum = 0;
 while(true){
     const val = prompt('Enter some number');
 
     if(!val) break;
+   
     // sum = !val ? break : sum +
+    sum += +val; //sum = sum + val'
 }
+
+console.log(sum);

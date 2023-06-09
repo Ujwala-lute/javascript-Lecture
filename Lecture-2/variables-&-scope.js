@@ -18,6 +18,8 @@ console.log('a',a);
     //block scope
     var b = 20;
     let c = 30;
+    
+
 }
 console.log('b', b);
 //console.log('c', c);

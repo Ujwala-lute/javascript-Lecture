@@ -24,7 +24,7 @@ console.log(val2);
 const x = 1;
 const y = 2;
 
-let z = 3 -(x=y+1);
+let z = 3 -(x-y+1);
 console.log('x',x);
 console.log('z',z);
 
@@ -36,7 +36,7 @@ console.log('p', p);
 
 //Increment/Decrement(++/--)
 let a1 = 10;
-a++;            //a1 = a1 + 1
+a1++;            //a1 = a1 + 1
 console.log('a', a);
 a1--;               //a1 = a1 -1; //post decrement
 console.log('a1', a1);

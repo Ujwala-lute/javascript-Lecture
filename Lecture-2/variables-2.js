@@ -27,3 +27,6 @@ d = 20;  //updation
 
 
 const e = 10;
+//e=20;  //cannot br updated
+//const e = 30;  //cannot re-declared
+console.log(e);

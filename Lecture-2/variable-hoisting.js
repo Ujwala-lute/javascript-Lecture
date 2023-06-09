@@ -34,6 +34,8 @@ const _userName = 'Ujwala';
 const $userName = 'Ujwala';
 const _= 'Ujwala';
 const $ = 'Ujwala';
+//const 1image ='image.jpg;
+const image1 ='image1.jpg';
 
 
 

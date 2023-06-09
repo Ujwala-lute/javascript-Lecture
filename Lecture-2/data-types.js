@@ -35,6 +35,7 @@ console.log(NaN + 1);
 
 console.log(0.1+0.2);
 
+//BigInt
 let n1 = 10n;
 console.log(typeof n);
 console.log(typeof n1);
@@ -42,7 +43,7 @@ console.log(typeof n1);
 //String
 const username = "Ujwala";
 const str1 = 'Hello' + username;
-const str2 = "Hello" + userName;
+const str2 = "Hello" + username;
 console.log(str1);
 console.log(str2);
 
